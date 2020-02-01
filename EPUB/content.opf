@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package unique-identifier="id" version="3.0" xmlns="http://www.idpf.org/2007/opf" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="id">MilNaŭcentOkdekKvar</dc:identifier>
+    <dc:title>Mil Naŭcent Okdek Kvar</dc:title>
+    <dc:creator file-as="Orwell, George">George Orwell</dc:creator>
+    <dc:language>eo</dc:language>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="style" href="style/style.css" media-type="text/css"/>
+    <item id="foreword" href="foreword.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part_01" href="part_01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part_02" href="part_02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part_03" href="part_03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="appendix" href="appendix.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="cover" properties="page-spread-right"/>
+    <itemref idref="foreword" properties="page-spread-right"/>
+    <itemref idref="part_01" properties="page-spread-right"/>
+    <itemref idref="part_02" properties="page-spread-right"/>
+    <itemref idref="part_03" properties="page-spread-right"/>
+    <itemref idref="appendix" properties="page-spread-right"/>
+  </spine>
+</package>
