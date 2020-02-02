@@ -19,6 +19,7 @@
   <spine>
     <itemref idref="cover" properties="page-spread-right"/>
     <itemref idref="foreword" properties="page-spread-right"/>
+    <itemref idref="nav" linear="no"/>
     <itemref idref="part_01" properties="page-spread-right"/>
     <itemref idref="part_02" properties="page-spread-right"/>
     <itemref idref="part_03" properties="page-spread-right"/>
