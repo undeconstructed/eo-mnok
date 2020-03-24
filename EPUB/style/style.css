@@ -59,6 +59,13 @@ nav a {
   font-weight: normal;
   margin-bottom: 2em;
 }
+.part p {
+  display: block;
+  margin: .2em 0;
+  text-indent: 2em;
+  line-height: 125%;
+  text-align: justify;
+}
 
 .chapter {
   page-break-after: auto;
@@ -73,12 +80,4 @@ nav a {
   background-color: inherit;
   border-width: 0;
   margin: 1em 0;
-}
-
-.part p {
-  display: block;
-  margin: .2em 0;
-  text-indent: 2em;
-  line-height: 125%;
-  text-align: justify;
 }
