@@ -1,5 +1,20 @@
-build: clean
-	zip -r mnok.epub EPUB META-INF mimetype
+file := "Mil_naŭcent_okdek_kvar"
+
+all: clean epub mobi
+
+epub: $(file).epub
+
+mobi: $(file).mobi
+
+check: $(file).epub
+	epubcheck $(file).epub
+
+$(file).epub:
+	zip -r -n mimetype -X $(file).epub mimetype META-INF EPUB
+
+$(file).mobi: $(file).epub
+	kindlegen $(file).epub
 
 clean:
-	-rm mnok.epub
+	-rm $(file).epub
+	-rm $(file).mobi

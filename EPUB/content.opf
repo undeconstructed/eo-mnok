@@ -2,9 +2,15 @@
 <package unique-identifier="id" version="3.0" xmlns="http://www.idpf.org/2007/opf" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="id">MilNaŭcentOkdekKvar</dc:identifier>
-    <dc:title>Mil Naŭcent Okdek Kvar</dc:title>
-    <dc:creator file-as="Orwell, George">George Orwell</dc:creator>
-    <dc:language>eo</dc:language>
+    <dc:title>Mil naŭcent okdek kvar</dc:title>
+    <dc:creator id="author">George Orwell</dc:creator>
+    <meta refines="#author" property="file-as">Orwell, George</meta>
+    <meta refines="#author" scheme="marc:relators" property="role">aut</meta>
+    <dc:creator id="translator">Donald Broadribb</dc:creator>
+    <meta refines="#translator" scheme="marc:relators" property="role">trl</meta>
+    <!-- Real language=eo, which kindlegen dooesn't support -->
+    <dc:language>en</dc:language>
+    <meta property="dcterms:modified">2020-04-12T00:00:00Z</meta>
   </metadata>
   <manifest>
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
