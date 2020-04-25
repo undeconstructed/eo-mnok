@@ -81,3 +81,41 @@ nav a {
   border-width: 0;
   margin: 1em 0;
 }
+
+.diary {
+  font-size: smaller;
+  margin: 2em 1em;
+  font-style: italic;
+}
+.diary p {
+  text-indent: 0;
+}
+.diary p+p {
+  margin-top: 1em;
+}
+.diary em {
+  font-style: normal;
+}
+
+.innerbook {
+  font-size: smaller;
+  margin: 2em 1em;
+}
+.innerbook header {
+  text-align: center;
+}
+.innerbook p {
+  text-indent: 0;
+}
+.innerbook p+p {
+  margin-top: 1em;
+}
+
+.rhyme {
+  font-size: smaller;
+  margin: 2em 1em;
+  font-style: italic;
+}
+.rhyme p {
+  text-indent: 0;
+}
